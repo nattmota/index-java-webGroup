@@ -2,5 +2,78 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+
+.upper-header {
+    height: 30px;
+    background-color: #4D71B4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.icons-upper-header {
+    display: grid;
+    grid-template-columns: 16px 16px;
+    column-gap: 10px;
+    left: 0;
+    position: absolute;
+}
+
+.icons-upper-header i {
+    width: 16px;
+    margin-left: 10px;
+    color: whitesmoke;
+}
+
+.upper-header-text p {
+    text-align: center;  
+    color: whitesmoke;
+}
+
+.header-cima {
+    /* background-color: #00326D; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-cima img {
+    width: 250px;
+    
+}
+
+.header-cima .input-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.header-cima .input-box i {
+    font-size: 22px;
+    position: absolute;
+    right: 10px;
+}
+
+.header-cima .input-box input {
+    width: 750px;
+    height: 40px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: #00326D;
+}
+
+.header-cima .nav-1 ul {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.header-cima ul {
+    list-style: none;
+}
