@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +7,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+    background-color: #00326D;
+    height: 22vh;
+    position: sticky;
+}
 
 .upper-header {
     height: 30px;
@@ -13,7 +20,6 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 .icons-upper-header {
@@ -28,22 +34,39 @@
     width: 16px;
     margin-left: 10px;
     color: whitesmoke;
+    font-size: 17px;
 }
 
 .upper-header-text p {
+    margin: 20px;
     text-align: center;  
     color: whitesmoke;
+    font-family: "Rubik", sans-serif;
+    font-size: 17px;
+}
+
+.header-cima a {
+    font-family: "Rubik", sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.header-cima i {
+    color: #fff;
 }
 
 .header-cima {
-    /* background-color: #00326D; */
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-.header-cima img {
-    width: 250px;
-    
+.header-cima .logo {
+    width: 20%;
+}
+
+.header-cima .logo img {
+    width: 85%;  
 }
 
 .header-cima .input-box {
@@ -71,9 +94,77 @@
 .header-cima .nav-1 ul {
     width: 300px;
     display: flex;
+    justify-content: space-between;
+}
+
+.header-cima .nav-1 ul .element-nav-1 {
+    width: 50px;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    position: static;
 }
 
 .header-cima ul {
     list-style: none;
 }
+
+.header-baixo ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.header-baixo ul li a {
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header-baixo i {
+    color: #fff;
+    padding: 0 5px;
+}
+
+main {
+    background-color: #ecf0f1;
+}
+
+.show-products h1 {
+    color: #00326D;
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+}
+
+.show-products .h1-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card-products {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 25px;
+}
+
+.card-body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body .card-price {
+    color: green;
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+.card-body .center-element {
+    display: flex;
+    justify-content: center;
+}
+
