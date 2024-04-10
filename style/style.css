@@ -80,15 +80,18 @@ header {
     font-size: 22px;
     position: absolute;
     right: 10px;
+    color: black;
 }
 
 .header-cima .input-box input {
     width: 750px;
-    height: 40px;
+    height: 55px;
     font-size: 14px;
     padding: 10px;
-    border-radius: 20px;
-    border-color: #00326D;
+    border-radius: 10px;
+    background-color: #ecf0f1;
+    border: none;
+    font-family: "Rubik", sans-serif;
 }
 
 .header-cima .nav-1 ul {
