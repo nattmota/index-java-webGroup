@@ -135,6 +135,8 @@ main {
     background-color: #ecf0f1;
 }
 
+
+
 .show-products h1 {
     color: #00326D;
     font-size: 40px;
@@ -148,9 +150,15 @@ main {
     margin-top: 50px;
 }
 
+.card {
+    margin: 0 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
 .card-products {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 40px 25px;
 }
 
